@@ -1,5 +1,5 @@
 """A simple script to create, train, validate, and save the default model"""
-from __future__ import division, print_function
+
 
 import datetime as dt
 import time

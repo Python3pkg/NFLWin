@@ -1,4 +1,4 @@
-from __future__ import print_function, division
+
 
 import nfldb
 import numpy as np
@@ -136,7 +136,7 @@ class TestConnectNFLDB(object):
         plays_df = pd.read_sql(test_query, engine)
         
         assert (plays_df.iloc[0]['description'] ==
-                u'(6:55) L.White left guard for 3 yards, TOUCHDOWN.')
+                '(6:55) L.White left guard for 3 yards, TOUCHDOWN.')
 
 class TestMakeNFLDBQueryString(object):
     """testing the _make_nfldb_query_string function"""
